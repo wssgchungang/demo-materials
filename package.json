@@ -45,7 +45,6 @@
     "moment": "latest"
   },
   "devDependencies": {
-    
     "@alib/build-scripts": "^0.1.3",
     "@alifd/build-plugin-lowcode": "^0.1.16-beta.2",
     "@alifd/next": "1.x",
@@ -72,17 +71,17 @@
     "iceworks": "^3.4.5",
     "marked": "^2.1.3",
     "prop-types": "^15.7.2",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0",
+    "react": "^16.x",
+    "react-dom": "^16.x",
     "remark-codesandbox": "^0.10.0",
     "to-string-loader": "^1.1.6"
   },
   "dependencies": {
-    "@alifd/next": "^1.23.16",
-    "prop-types": "^15.5.8"
+    "@alifd/next": "1.x",
+    "prop-types": "^15.7.2"
   },
-  
   "componentConfig": {
-    "isComponentLibrary": true
+    "isComponentLibrary": true,
+    "materialSchema": "https://unpkg.alibaba-inc.com/demo-materials@0.1.0/build/lowcode/assets-prod.json"
   }
 }
